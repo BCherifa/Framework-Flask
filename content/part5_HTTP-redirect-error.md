@@ -1,4 +1,4 @@
-# Gérer les requêtes HTTP - Pages d'erreur et redirection - **Utiliser FLASK en BUT RT**
+# Gérer les requêtes HTTP - Pages d'erreur et redirection - 
 
 ## Génération d'URL
 
