@@ -1,4 +1,4 @@
-# Gérer les sessions et les cookies - **Utiliser FLASK en BUT RT**
+# Gérer les sessions et les cookies - 
 
 ## Les sessions avec Flask
 
