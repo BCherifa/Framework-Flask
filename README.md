@@ -3,7 +3,7 @@
 ## Sommaire
 
 1. [Programme de la formation](/content/part1_programme.md) 🠖 `/content/part1_programme.md`
-1. [Presentation du framework FLASK](/content/part3_flask.md) 🠖 `/content/part2_infra-peda.md`
+1. [Presentation du framework FLASK](/content/part3_flask.md) 🠖 `/content/part3_flask.md`
 1. [Utiliser les templates HTML](/content/part4_jinja2.md) 🠖 `/content/part4_jinja2.md`
 1. [Gérer les requêtes HTTP - Pages d'erreur et redirection](/content/part5_HTTP-redirect-error.md) 🠖 `/content/part5_HTTP-redirect-error.md`
 1. [Utiliser les formulaires](/content/part6_forms.md) 🠖 `/content/part6_forms.md`
