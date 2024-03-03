@@ -1,4 +1,4 @@
-# Presentation du framework FLASK - **Utiliser FLASK en BUT RT**
+# Presentation du framework FLASK - **Utiliser FLASK en developpement avancé**
 
 ## 
 
