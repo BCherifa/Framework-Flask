@@ -290,7 +290,7 @@ Les boucles itératives sont implémentées à l'aide des balises :
 
 &nbsp;
 
-> **_Exemple_** :<p>On va créer une vue qui contient une liste de dictionnaires des enseignants du département RT de Chalons. La liste est transmise au *template* dans le paramètre `teachers`.</p><p>Le gabarit `teachers.html` étend le modèle de base `layout.html`. Il utilise une boucle sur la liste d’enseignant pour afficher les items `<li> ... </li>` de la liste `<ul>`.</p>
+> **_Exemple_** :<p>On va créer une vue qui contient une liste de dictionnaires des enseignants du département RT. La liste est transmise au *template* dans le paramètre `teachers`.</p><p>Le gabarit `teachers.html` étend le modèle de base `layout.html`. Il utilise une boucle sur la liste d’enseignant pour afficher les items `<li> ... </li>` de la liste `<ul>`.</p>
 
 &nbsp;
 
@@ -300,7 +300,7 @@ Les boucles itératives sont implémentées à l'aide des balises :
 {% extends "layout.html" %}
 {% block content %}
 <h1>Bienvenue dans la formation Flask</h1>
-<h2>Liste des enseignants du département RT de l'IUT</h2>
+<h2>Liste des enseignants du département RT</h2>
 <ul>
   {% for prof in teachers %}
     <li>{{ prof['firstname'] }} {{ prof['lastname'] | upper }} -
