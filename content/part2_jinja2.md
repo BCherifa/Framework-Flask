@@ -333,7 +333,7 @@ def getUser(firstname, lastname):
 def getTeachers():
     teachers = [
         {"firstname":"Bruno","lastname":"Botella","domain":"Info"},
-        {"firstname":"Cheriffa","lastname":"Boucetta","domain":"Info"},
+        {"firstname":"Cherifa","lastname":"Boucetta","domain":"Info"},
         {"firstname":"Jacky","lastname":"Etienne", "domain":"Réseaux"},
         {"firstname":"Delphine","lastname":"Gobillard","domain":"Maths"},
         {"firstname":"Vincent","lastname":"Gobillard","domain":"Télécoms"},
