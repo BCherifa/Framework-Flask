@@ -25,12 +25,12 @@ Définir le dossier d'accueil du projet puis y accéder.  A l'intérieur, créer
 
 ```bash
 # Création du dossier d'accueil du projet
-mkdir prj_acd
-cd prj_acd
+mkdir prj_flask
+cd prj_flask
 
 # Création de l'environnement virtuel python
-python3 -m venv acd_env
-source acd_env/bin/activate
+python3 -m venv prj_env
+source prj_env/bin/activate
 
 # Mise à jour de la base du dépôt
 python -m pip install -U pip
