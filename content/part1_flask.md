@@ -29,7 +29,12 @@ cd prj_acd
 
 # Création de l'environnement virtuel python
 python3 -m venv acd_env
-source acd_env/bin/activate
+#démarrer l'environnement virtuel
+# sous linux
+source acd_env/bin/activate 
+#sous windows
+projetflask > .\prj_venv\Scripts\activate
+
 
 # Mise à jour de la base du dépôt
 python -m pip install -U pip
