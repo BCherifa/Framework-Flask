@@ -20,7 +20,7 @@ Le moteur de template **Jinja2** assure la gestion et le fonctionnement des *tem
 
 ### **Préparer l'environnement**
 
-Pour créer une application web **_Flask_**, im faut tout d'abord définir le dossier d'accueil du projet, puis y accéder.  A l'intérieur, il faut créer un environnement virtuel Python puis l'activer. Une fois fait, on commence par mettre à jour la base de paquets du gestionnaire `pip`.
+Pour créer une application web **_Flask_**, il faut tout d'abord définir le dossier d'accueil du projet, puis y accéder.  A l'intérieur, il faut créer un environnement virtuel Python puis l'activer. Une fois fait, on commence par mettre à jour la base de paquets du gestionnaire `pip`.
 
 ```bash
 # Création du dossier d'accueil du projet
