@@ -233,52 +233,6 @@ def  profil(user, years):
 
 ![Erreur](../img/20221012_14appli1-erreur2.jpg )
 
-&nbsp;
-
-### **Utiliser la console python dans le message d'erreur**
-
-On peut ouvrir dans la page une console python par un simple clic sur l'icône ![icone console debug](../img/20221012_28appli1-debug-icone-console.jpg) qui s'affiche à droite de la ligne ayant le focus. Vous pouvez alors effectuer les tests jugés utiles pour déboguer l'erreur.
-
-Avant d'ouvrir la console de débogage, on vous demande de saisir le code PIN du serveur pour s'assurer que vous êtes autorisé à le faire.
-
-&nbsp;
-
-*fig.9 - Ouverture de la console de débogage python - autorisation par saisie du code __PIN__*
-
-![console code PIN](../img/20221012_15appli1-debug-pin.jpg)
-
-&nbsp;
-
-Lorsque la console python est ouverte, vous pouvez l'utiliser pour effetuer les  tests.  
-
-&nbsp;
-
-*fig.10 - Utilisation de la console de débogage python*
-
-![Console python debug](../img/20221012_16appli1-debug-console.jpg)
-
-&nbsp;
-
-### **Danger liés à l'utilisation de la console de débogage**
-
-
-Python est un langage adapté à l'administration des systèmes d'exploitation. Il dispose de paquets permettant d'effectuer des actions en relation direct avec l'OS et son système de fichier. La console de débogage dispose donc de ces fonctionnalité. La figure ci-après montre un bref exemple des possibilités offertes :
-
-- identification du compte utiliser pour lancer l'application
-- identification et listing du dossier courant
-- création d'un dossier
-- suppression d'un dossier
-
-&nbsp;
-
-> _**Attention**<p>Il est recommandé de ne jamais utiliser le mode debug dans le cadre d'un usage réseau. Cela permet d'empécher l'accès à une console python qui offrirait des possibilités d'interaction avec l'OS et son sytème de fichiers.</p>_
-
-&nbsp;
-
-*fig.11 - Faille de sécurité liée aux possibilités offertes par la console de débogage python*
-
-![Console python debug](../img/20221012_17appli1-debug-danger.jpg)
-
 
 &nbsp;
 
