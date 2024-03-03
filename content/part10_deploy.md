@@ -1,4 +1,4 @@
-# Déployer une application web Flask - **Utiliser FLASK en BUT RT**
+# Déployer une application web Flask 
 
 ## Présentation
 
