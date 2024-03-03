@@ -273,3 +273,5 @@ def home():
 ```
 
 ![Redirection](/img/20221012_14jinja-redirect.jpg)
+
+_[ [**<<< Activité 1](part4_jinja2.md)] / [ [**>>> Activité 3](part6_forms.md) ]_
