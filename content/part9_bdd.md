@@ -144,7 +144,7 @@ app = Flask(__name__)
 
 app.config["SECRET_KEY"] = b'5eed9b976f6d5c80fb8bb74b1bcff9f01218a864d0f2dd76143356d3cc36eda8'
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://acd2022:acd2022@10.59.80.90:2022/collectivities'
+app.config['SQLALCHEMY_DATABASE_URI'] = '#URL de la base de données/collectivities'
 
 db = SQLAlchemy()
 db.init_app(app)
@@ -171,6 +171,10 @@ Les attributs correspondent aux champs de la table associée dans la base de don
 Les classes associées aux tables de la base de données sont définies conformément à l’**_ORM_** fourni par l’extension `flask-sqlalchemy`. On les qualifie de **_Model_** et elles sont enregistrées dans le module `models.py` à la racine du paquet de l’application.
 
 Il faut donc implémenter un Model par table de notre base de données `collectivities`.
+
+
+&nbsp;
+Pour pouvoir tester le code et mettre en place l'application, il faut installer postgresql et créer la base de données des collectivités en utilisant le fichiers sql dans ressources.
 
 &nbsp;
 
