@@ -239,4 +239,8 @@ sous-dossiers spécifiques avec leurs propres modules, templates et fichiers sta
 
 *Flask Blueprints* permet de mettre en oeuvre ce type d'organisation en agglomérant des éléments fonctionnels modulaires. Chacun d'eux est représenté par un *Blueprint* spécifique dont la logique doit être enregistré dans un sous-dossier propre. Le module d'initialisation doit déclarer les *Blueprints*.
 
-> Un *Blueprint* de *Flask* peut être assimilé, dans  une certaine mesure, à une *Application Django* pour construire un élément modulaire attaché à une fonctionnalité spécifique du site web. 
+> Un *Blueprint* de *Flask* peut être assimilé, dans  une certaine mesure, à une *Application Django* pour construire un élément modulaire attaché à une fonctionnalité spécifique du site web.
+
+
+_[ [**<<< Sommaire](../README.md)] / [ [**>>> Activité 2](part4_jinja2.md) ]_
+
