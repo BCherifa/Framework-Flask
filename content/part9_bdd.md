@@ -1,4 +1,4 @@
-# Interroger une Base De Données - **Utiliser FLASK en BUT RT**
+# Interroger une Base De Données - 
 
 ## Présentation
 
