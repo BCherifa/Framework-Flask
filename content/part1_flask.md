@@ -361,7 +361,7 @@ def index():
 
 @app.route("/emploi/<user>/<job>")
 def emploi(user, job):
-    return render_template("user.html", username=user, job=job)
+    return render_template("emploi.html", username=user, job=job)
 
 @app.route("/profil/<string:user>/<int:years>")
 def  profil(user, years):
