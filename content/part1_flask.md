@@ -155,9 +155,10 @@ Le serveur web WSGI est lancé sur la boucle locale et écoute par défaut sur l
 Pour que le serveur soit accessible depuis le réseau, il faut utiliser avec le script de lancement `flask` l'option `--host=0.0.0.0*` sur la commande `run`. Dans ce cas, il faut ouvrir le port d'écoute dans le firewall de la machine serveur. Le message de démarrage indique les interfaces réseau à l'écoute des requêtes clientes.
 
 ```bash
-# configuration du firewall
+# configuration du firewall sous ubuntu
 sudo ufw allow 5000/tcp
 sudo ufw reload
+#Sous windows on n'a pas besoin de changer le paramétrage du firewall
 
 # script de lancement
 flask --app appli1 run --host=0.0.0.0
