@@ -1,4 +1,4 @@
-# Utiliser les templates HTML - **Utiliser FLASK en BUT RT**
+# Utiliser les templates HTML - **Utiliser FLASK**
 
 ## Principe d'utilisation des *template HTML*
 
@@ -325,5 +325,5 @@ Code du *template* `index.html` qui charge le fragment `alert.html`
 
 ![Test Jinja](/img/20221012_12jinja-include.jpg)
 
-
+_[ [**<<< Activité 1](part3_flask.md)] / [ [**>>> Activité 3](part5_HTTP-redirect-error.md) ]_
 
