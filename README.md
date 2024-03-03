@@ -1,4 +1,4 @@
-# BUT RT - Ressource r209 *Initiation au développement WEB*
+# BUT info - Ressource Ressource R6.Real.05 : * Développement avancé *
 
 ## Sommaire
 
