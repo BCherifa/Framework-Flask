@@ -361,11 +361,11 @@ def index():
 
 @app.route("/emploi/<user>/<job>")
 def emploi(user, job):
-    return render_template("user.html", username=user, job=job)"
+    return render_template("user.html", username=user, job=job)
 
 @app.route("/profil/<string:user>/<int:years>")
 def  profil(user, years):
-    return render_template("profil.html", username=user, years=years)"
+    return render_template("profil.html", username=user, years=years)
 ```
 
 &nbsp;
