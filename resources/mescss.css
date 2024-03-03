@@ -1,0 +1,257 @@
+/* 
+    Document   : cci.css
+    Created on : 15 févr. 2010, 08:42:04
+    Author     : botella
+    Description:
+    Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/**************************************************************************
+ * Organisation de la page et définition des principales zones à afficher *
+ **************************************************************************/
+
+root { 
+    display: block;
+}
+
+/********************
+ * Sélecteur de tag *
+ ********************/
+body {
+    background: #f1f1f1;
+	margin: 0 auto;
+    width: 900px;
+}
+
+* {
+   font-family: Geneva,Arial,Helvetica,sans-serif;
+   text-align: justify;
+}
+
+p {
+   font-size: 16px;
+   padding: 0px 10px 0px 10px;
+}
+
+h1 {
+   padding-top: 0px;
+   margin-top: 0px;
+   font-size: 24px;
+   font-weight: bold;
+}
+
+h2 {
+   font-size: 20px;
+   font-weight: bold;
+}
+
+h3 {
+   font-size: 16px;
+   font-weight : bold;
+}
+
+a{
+    text-decoration: none;
+    color: #1c727c;
+
+}
+
+a img{
+    border: none 0px;
+}
+
+textarea {
+    margin-left: 0px;
+}
+
+/**************************************************
+ * Container d'affichage des pages d'informations *
+ **************************************************/
+.cadre_fond{
+    margin: 0px 0px 0px -25px;
+}
+
+.cadre{
+    background-image: url(../images/cadre_fond.jpg);
+    background-repeat: repeat-y;
+    margin: auto;
+    padding: 0px 25px 0px 25px;
+}
+
+.defaut{
+    display: block;
+}
+
+.centrer{
+    display: block;
+    margin: 10px auto;
+}
+
+.droite{
+    margin: 30px 0px 20px 0px;
+    float: right;
+}
+
+.gauche{
+    margin: 30px 0px 20px 0px;
+    float: left;
+}
+
+.zone_info {
+    background-color: #ffffff;
+    width: 900px;
+    height: auto;
+    margin: 15px 10px 0px 0px;
+}
+
+.zone_info dt {
+    color: #1c727c;
+    font-weight: normal;
+    font-style: oblique;
+    font-size: 16px;
+    margin: 15px 0px 6px 0px;
+}
+
+.zone_info dl {
+    color: #1c727c;
+    font-weight: normal;
+    font-style: oblique;
+    font-size: 14px;
+    margin: 0px 0px 0px 0px;
+}
+
+.zone_info h1.contact {
+    margin: 35px 0px 0px 0px;
+}
+
+.zone_info table.contact tr td {
+    color: #1c727c;
+    font-weight: normal;
+    font-style: oblique;
+    font-size: 14px;
+    margin: 15px 0px 0px 0px;
+}
+
+
+.zone_info dl.contact dt {
+    color: #1c727c;
+    font-weight: normal;
+    font-style: oblique;
+    font-size: 14px;
+    margin: 15px 0px 0px 0px;
+}
+
+.zone_info h1 {
+    color: #0e6d78;
+	 text-align: center;
+	 margin: 0px 0px 30px 0px; 
+}
+
+.zone_info h2 {
+    color: #0e6d78;
+}
+
+.zone_info h3 {
+    color: #0e6d78;
+}
+
+.zone_info p {
+    color: #1c727c;
+}
+
+li{
+	display: list-item;
+	list-style-image: url(../images/puce2.jpg);
+}
+
+#Q5texte {
+	margin-left: 30px;
+}
+
+#affiche{
+    width: 870px;
+    margin: 10px auto;
+    padding: 5px;
+    box-shadow: 3px 3px 5px #aaaaaa;
+    -o-box-shadow: 3px 3px 5px #aaaaaa;
+    -moz-box-shadow: 3px 3px 5px #aaaaaa;
+    -webkit-box-shadow: 3px 3px 5px #aaaaaa;
+}
+
+#affiche table {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+}
+
+.colonne2 {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+.colonne3 {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
+.colonne4 {
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+}
+
+#affiche th, #affiche td {
+    margin: 0px;
+    border: none;
+    text-align: left;
+    padding: 2px 10px 2px 20px;
+}
+
+.col1 {
+    width: 15%;
+}
+
+.col2 {
+    width: 20%;
+}
+
+.col3 {
+    width: 50%;
+}
+
+#affiche th{
+    background: #acb1b6;
+}
+
+#affiche th:first-child {
+    max-width: 25%;
+}
+
+.pagination{
+    text-align: right;
+    padding-bottom: 2em;
+}
+.btn {
+    display: inline-block;
+    text-align: center;
+    font-size: smaller;
+    width: 2em;
+    line-height: 2em;
+    border-radius: 5px;
+    border: solid 1px #1c727c;;
+}
+
+.btn_current {
+    display: inline-block;
+    text-align: center;
+    font-size: smaller;
+    background-color: #0e6d78;
+    color: #ffffff;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    border-radius: 5px;
+    border: solid 1px #1c727c;;
+}
