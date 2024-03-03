@@ -1,4 +1,4 @@
-# Utiliser les formulaires - **Utiliser FLASK en BUT RT**
+# Utiliser les formulaires
 
 ## Présentation de *WTForms* 
 
