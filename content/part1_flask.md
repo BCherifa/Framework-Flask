@@ -412,7 +412,7 @@ L'instruction de lancement est la même que précédement.
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ACD 2022</title>
+    <title>BUT Info S6</title>
 </head>
 <body>
     <h1>Bienvenue dans la formation Flask</h1>
@@ -436,7 +436,7 @@ L'instruction de lancement est la même que précédement.
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ACD 2022</title>
+    <title>BUT Info S6</title>
 </head>
 <body>
     <h1>Bienvenue dans la formation Flask</h1>
