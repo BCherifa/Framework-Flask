@@ -1,4 +1,4 @@
-# Utiliser les templates HTML - **Utiliser FLASK en BUT RT**
+# Utiliser les templates HTML 
 
 ## Principe d'utilisation des *template HTML*
 
