@@ -23,7 +23,7 @@ La fonction `url_for()` est utilisée dans les **_templates HTML_** pour accéde
 
 &nbsp;
 
-> _**Exercice**<p>On veut améliorer le design du site en utilisant une page de style. On clone le projet de l'application `appli3` dans une nouvelle application  `appli4` en remplaçant toutes les occurrences à `appli3` par `appli4` dans les différents fichiers. <p></p>Dans l'entête  HTML du Gabarit de base `layout.html`, ajoutez le chargement de la page CSS `css/style.css`.<p></p>On met à disposition la page de style [`styles.css`](/resources/styles.css) utilisée pour le design du site.</p>_
+> _**Exercice**<p>On veut améliorer le design du site en utilisant une page de style. On clone le projet de l'application `appli3` dans une nouvelle application  `appli4` en remplaçant toutes les occurrences à `appli3` par `appli4` dans les différents fichiers. <p></p>Dans l'entête  HTML du Gabarit de base `layout.html`, ajoutez le chargement de la page CSS `css/style.css`.<p></p>On met à disposition la page de style [`styles.css`](/resources/mescss.css) utilisée pour le design du site.</p>_
 
 &nbsp;
 
