@@ -43,7 +43,7 @@ Le principal paquet à installer est le paquet `flask`. Il faut l'installer dans
 pip install flask
 ```
 
-> **_Remarque_** :<br/>_Le paquet *flask* est installé dans le dossier `acd_env/lib/python3.10/site-packages/` de l'environnement virtuel. Des dépendances ont automatiquement été installées - **click**, **itsdangerous**, **jinja2**, **markupsafe**, **werkzeug**._
+> **_Remarque_** :<br/>_Le paquet *flask* est installé dans le dossier `prj_env/lib/python3.10/site-packages/` de l'environnement virtuel. Des dépendances ont automatiquement été installées - **click**, **itsdangerous**, **jinja2**, **markupsafe**, **werkzeug**._
 
 ---
 ### Dependances installées
@@ -64,7 +64,7 @@ On définit ensuite les fonctions qui retournent les réponses HTML. On les déc
 
 > **_Remarque_** :<br/>_Une fonction peut disposer de plusieurs routes. Il est possible de passer des paramètres supplémentaires à la route en les plassant entre chevrons `<...>` dans l'URL et en utilisant le caractère **« / »** comme séparateur. Ils doivent correspondre aux arguments de la fonction décorée. Ces arguments peuvent être typés pour assurer la cohérence des données, en l'absence, le type par défaut est `str`._
 
-Dans le dossier du projet `prj_acd`, créez un dossier une nommée `appli1` pour implémenter  à l'intérieur une première application de même nom. Créez le module `appli1.py` contenant le code suivant. 
+Dans le dossier du projet `prj_flask`, créez un dossier une nommée `appli1` pour implémenter  à l'intérieur une première application de même nom. Créez le module `appli1.py` contenant le code suivant. 
 
 ```python
 from flask import Flask
