@@ -1,4 +1,4 @@
-# Contexte de requête  et contexte d’application - **Utiliser Flask en BUT RT**
+# Contexte de requête  et contexte d’application 
 
 Lors du traitement d'une requête, **_Flask_** pousse un **_contexte de requête_** qui assure le suivi des données au niveau de la requête pendant toute la durée de la demande. Plutôt que de transmettre l'objet de requête aux fonctions qui s'exécutent, les mêmes fonctions accèdent aux **_proxies_** `request` et `session`. 
 
