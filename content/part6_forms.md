@@ -1,4 +1,4 @@
-# Utiliser les formulaires - **Utiliser FLASK en BUT RT**
+# Utiliser les formulaires - 
 
 ## Présentation de *WTForms* 
 
@@ -105,3 +105,5 @@ app.config["SECRET_KEY"] = b'5eed9b976f6d5c80fb8bb74b1bcff9f01218a864d0f2dd76143
 from . import routes 
 from . import error_handlers
 ```
+
+_[ [**<<< Activité 3](part5_HTTP-redirect-error.md)] / [ [**>>> Activité 5](part7_context.md) ]_
