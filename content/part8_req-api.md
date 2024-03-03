@@ -1,4 +1,4 @@
-# Interroger un API REST - **Utiliser FLASK en BUT RT**
+# Interroger un API REST - 
 
 ## Envoyer des requête HTTP avec le module python `requests`
 
