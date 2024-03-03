@@ -222,7 +222,7 @@ Les templates HTML sont des fichiers contenant des données statiques HTML. Ils 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Application test M2105</title>
+    <title>Application test Flask</title>
 </head>
 <body>
     <h1>Bienvenue dans la formation Flask</h1>
