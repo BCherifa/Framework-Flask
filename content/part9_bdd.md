@@ -144,7 +144,7 @@ app = Flask(__name__)
 
 app.config["SECRET_KEY"] = b'5eed9b976f6d5c80fb8bb74b1bcff9f01218a864d0f2dd76143356d3cc36eda8'
 
-app.config['SQLALCHEMY_DATABASE_URI'] = '#URL de la base de données/collectivities'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://nom_utilisateur:password@localhost:5432/collectivites' #URL de la base de donnéescollectivities (postgresql://postgres:iut@localhost:5432/collectivites)
 
 db = SQLAlchemy()
 db.init_app(app)
