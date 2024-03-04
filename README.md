@@ -9,6 +9,6 @@
 1. [Contexte de requête et contexte d'application](/content/part5_context.md) 
 1. [Sécuriser une application web Flask](/content/part6_securite.md)
 1. [Gérer les sessions et les cookies](/content/part7_session-cookie.md)
-1. [Flask et les bases de données](/content/part9_bdd.md)
 1. [Interroger un API - Flask et les bases de données](/content/part8_req-api.md) 
+1. [Flask et les bases de données](/content/part9_bdd.md)
 1. [Déployer une application web Flask](/content/part10_deploy.md) 
