@@ -1,0 +1,187 @@
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 11.3
+-- Dumped by pg_dump version 11.3
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+SET default_tablespace = '';
+
+SET default_with_oids = false;
+
+--
+-- Name: dept; Type: TABLE; Schema: public; Owner: bruno
+--
+
+CREATE TABLE public.dept (
+    id_dept character varying(3) NOT NULL,
+    id_region integer NOT NULL,
+    ref_dept character varying(7) NOT NULL,
+    nom_dept character varying(50) NOT NULL
+);
+
+
+ALTER TABLE public.dept OWNER TO bruno;
+
+--
+-- Data for Name: dept; Type: TABLE DATA; Schema: public; Owner: bruno
+--
+
+COPY public.dept (id_dept, id_region, ref_dept, nom_dept) FROM stdin;
+1	16	dept1	Ain
+2	10	dept2	Aisne
+3	16	dept3	Allier
+4	17	dept4	Alpes-de-Haute-Provence
+5	17	dept5	Hautes-Alpes
+6	17	dept6	Alpes-Maritimes
+7	16	dept7	Ardèche
+8	11	dept8	Ardennes
+9	15	dept9	Ariège
+10	11	dept10	Aube
+11	15	dept11	Aude
+12	15	dept12	Aveyron
+13	17	dept13	Bouches-du-Rhône
+14	9	dept14	Calvados
+15	16	dept15	Cantal
+16	14	dept16	Charente
+17	14	dept17	Charente-Maritime
+18	7	dept18	Cher
+19	14	dept19	Corrèze
+21	8	dept21	Côte-d'Or
+22	13	dept22	Côtes-d'Armor
+23	14	dept23	Creuse
+24	14	dept24	Dordogne
+25	8	dept25	Doubs
+26	16	dept26	Drôme
+27	9	dept27	Eure
+28	7	dept28	Eure-et-Loir
+29	13	dept29	Finistère
+30	15	dept30	Gard
+31	15	dept31	Haute-Garonne
+32	15	dept32	Gers
+33	14	dept33	Gironde
+34	15	dept34	Hérault
+35	13	dept35	Ille-et-Vilaine
+36	7	dept36	Indre
+37	7	dept37	Indre-et-Loire
+38	16	dept38	Isère
+39	8	dept39	Jura
+40	14	dept40	Landes
+41	7	dept41	Loir-et-Cher
+42	16	dept42	Loire
+43	16	dept43	Haute-Loire
+44	12	dept44	Loire-Atlantique
+45	7	dept45	Loiret
+46	15	dept46	Lot
+47	14	dept47	Lot-et-Garonne
+48	15	dept48	Lozère
+49	12	dept49	Maine-et-Loire
+50	9	dept50	Manche
+51	11	dept51	Marne
+52	11	dept52	Haute-Marne
+53	12	dept53	Mayenne
+54	11	dept54	Meurthe-et-Moselle
+55	11	dept55	Meuse
+56	13	dept56	Morbihan
+57	11	dept57	Moselle
+58	8	dept58	Nièvre
+59	10	dept59	Nord
+60	10	dept60	Oise
+61	9	dept61	Orne
+62	10	dept62	Pas-de-Calais
+63	16	dept63	Puy-de-Dôme
+64	14	dept64	Pyrénées-Atlantiques
+65	15	dept65	Hautes-Pyrénées
+66	15	dept66	Pyrénées-Orientales
+67	11	dept67	Bas-Rhin
+68	11	dept68	Haut-Rhin
+69	16	dept69	Rhône
+70	8	dept70	Haute-Saône
+71	8	dept71	Saône-et-Loire
+72	12	dept72	Sarthe
+73	16	dept73	Savoie
+74	16	dept74	Haute-Savoie
+75	6	dept75	Paris
+76	9	dept76	Seine-Maritime
+77	6	dept77	Seine-et-Marne
+78	6	dept78	Yvelines
+79	14	dept79	Deux-Sèvres
+80	10	dept80	Somme
+81	15	dept81	Tarn
+82	15	dept82	Tarn-et-Garonne
+83	17	dept83	Var
+84	17	dept84	Vaucluse
+85	12	dept85	Vendée
+86	14	dept86	Vienne
+87	14	dept87	Haute-Vienne
+88	11	dept88	Vosges
+89	8	dept89	Yonne
+90	8	dept90	Territoire de Belfort
+91	6	dept91	Essonne
+92	6	dept92	Hauts-de-Seine
+93	6	dept93	Seine-Saint-Denis
+94	6	dept94	Val-de-Marne
+95	6	dept95	Val-d'Oise
+971	1	dept91a	Guadeloupe
+972	2	dept92a	Martinique
+973	3	dept93a	Guyane
+974	4	dept94a	La Réunion
+975	19	deptcoa	Saint-Pierre-et-Miquelon
+976	5	dept95a	Mayotte
+977	19	deptcob	Saint-Barthélemy
+978	19	deptcoc	Saint-Martin
+984	19	deptcod	Terres australes et antarctiques françaises
+986	19	deptcoe	Wallis et Futuna
+987	19	deptcof	Polynésie française
+988	19	deptcog	Nouvelle-Calédonie
+989	19	deptcoh	Île de Clipperton
+2A	18	dept2a	Corse-du-Sud
+2B	18	dept2b	Haute-Corse
+\.
+
+
+--
+-- Name: dept pk_dept; Type: CONSTRAINT; Schema: public; Owner: bruno
+--
+
+ALTER TABLE ONLY public.dept
+    ADD CONSTRAINT pk_dept PRIMARY KEY (id_dept);
+
+
+--
+-- Name: dependre_fk; Type: INDEX; Schema: public; Owner: bruno
+--
+
+CREATE INDEX dependre_fk ON public.dept USING btree (id_region);
+
+
+--
+-- Name: dept_pk; Type: INDEX; Schema: public; Owner: bruno
+--
+
+CREATE UNIQUE INDEX dept_pk ON public.dept USING btree (id_dept);
+
+
+--
+-- Name: dept fk_dept_dependre_region; Type: FK CONSTRAINT; Schema: public; Owner: bruno
+--
+
+ALTER TABLE ONLY public.dept
+    ADD CONSTRAINT fk_dept_dependre_region FOREIGN KEY (id_region) REFERENCES public.region(id_region) ON UPDATE RESTRICT ON DELETE RESTRICT;
+
+
+--
+-- PostgreSQL database dump complete
+--
+
