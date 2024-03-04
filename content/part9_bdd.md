@@ -119,7 +119,7 @@ On met à disposition la page de style [`mescss.css`](/resources/mescss.css) uti
 ---
 ## Connexion à une base postgresql
 
-> _Vous disposez dans le cadre de la formation d'un serveur de bases de données PostgreSQL activé sur le port `2022` de la machine `10.59.80.90`. Vous trouverez à l'intérieur la base de données `collectivities` que vous pouvez consulter avec le compte PostgreSQL `acd2022` (mot de passe également `acd2022`)._
+> _Pour pouvoir tester le code et mettre en place l'application, il faut installer postgresql (version 12 si vous êtes sous windows) et créer la base de données des collectivités _ les fichiers sql pour les régions, les departements et les communues sont donnés en annexe (dans ressources).
 
 Pour dialoguer avec un serveur **_PostgreSQL_**, il faut installer dans l'environnement virtuel python les paquets `flask-sqlalchemy` et `psycopg2-binary`.
 
@@ -173,8 +173,7 @@ Les classes associées aux tables de la base de données sont définies conform�
 Il faut donc implémenter un Model par table de notre base de données `collectivities`.
 
 
-&nbsp;
-Pour pouvoir tester le code et mettre en place l'application, il faut installer postgresql et créer la base de données des collectivités en utilisant le fichiers sql dans ressources.
+
 
 &nbsp;
 
