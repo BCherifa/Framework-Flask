@@ -42,7 +42,7 @@ Pour traiter la réponse HTTP du serveur, on utilise les attributs et les métho
 
 > _**Remarque**<p>La méthode ``requests.get()`` permet de lancer une **requête HTTP GET** pour récupérer une ressource . Elle retourne une instance représentant la réponse HTTP. On peut afficher le résultat en appelant l'attribut ``text`` donnant le contenu **HTML** récupéré.
 
-Pour tester l'api avec une connexion à une base de donnée, vous trouverez un exercice d'application [`ici`](/resources/20240306_R605_ApiFlask.pdf) 
+Pour tester l'api avec une connexion à une base de donnée, vous trouverez un exercice d'application [`ici`](/resources/20240406_R605-RestBDD.pdf) 
 
 &nbsp;
 
