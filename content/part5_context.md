@@ -1,33 +1,6 @@
-# Contexte de requête  et contexte d’application 
+# Persistance des données et contexte d’application 
 
-Lors du traitement d'une requête, **_Flask_** pousse un **_contexte de requête_** qui assure le suivi des données au niveau de la requête pendant toute la durée de la demande. Plutôt que de transmettre l'objet de requête aux fonctions qui s'exécutent, les mêmes fonctions accèdent aux **_proxies_** `request` et `session`. 
 
-&nbsp;
-
-> _**Les Proxies**<p>Dans *Flask*, les **proxies** sont des objets qui ciblent d'autres objets. Ils permettent d’accéder à l'application sans réellement l'importer. Ils sont accessibles de manière identique dans chaque thread de travail, mais pointent vers l'objet unique lié à l’application instanciée.</p><p>La référence à l'objet mandaté est nécessaire dans certaines situations, telles que l'envoi de signaux ou la transmission de données à un thread d'arrière-plan.</p>_
-
-&nbsp;
-
-A chaque requête, Flask lance parallèlement un **_contexte de l'application_** qui fait référence à un proxy nommé `current_app` pointant vers l'application. Les fonctions d'affichage, les gestionnaires d'erreurs et les autres fonctions qui s'exécutent pendant une requête ont ainsi accès au proxy `current_app` pour partager les données.
-
-En règle générale, le contexte d'application aura la durée de vie de la requête. Lorsqu’il disparaît, il émet systématiquement le signal `appcontext_tearing_down`, même si une exception est déclenchée. 
-
-En captant ce signal – on parle d’abonnement au signal – on peut exécuter certaines tâches comme par exemple les opérations de sérialisation des données dans un fichier pour assurer leur persistance en cas d’interruption de l’application.
-
-&nbsp;
-
-> _**Remarque**<p>Les signaux sont des notifications émises lorsque des actions se produisent hors de l'infrastructure principale ou dans une extension Flask. Ils permettent d'avertir de l’apparition d’un évènement. La méthode `connect()` d'un signal permet de **s’abonner** à un signal. Le premier argument est la fonction à appeler lorsque le signal est émis, le second argument, facultatif, spécifie un émetteur potentiel. Pour **se désabonner** d'un signal, il suffit d’utiliser sa méthode `disconnect()`.</p><p>**Flask** est livré avec quelques signaux. Le paquet python `blinker` permet de disposer de nombreux signaux supplémentaires qui peuvent être utiles au fonctionnement de l'application. Il faut l’installer dans l’environnement avec la commande ci-après.</p>_
-
-&nbsp;
-
-```bash
-pip install blinker
-```
-
-&nbsp;
-
----
-## Application aux applications web **Flask**
 
 Si l'application utilise des données spécifiques qu'elle initialise au démarrage, à chaque fois que son processus est arrêté, les modifications apportées sont perdues. Il est nécessaire d'implémenter un mécanisme de sauvegarde des données pour préserver leur état en vue d’un redémarrage ultérieur. On parle de persistance des données.
 
