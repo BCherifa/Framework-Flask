@@ -31,7 +31,7 @@ from sqlalchemy import MetaData
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://acd2022:acd2022@10.59.80.90:2022/collectivities'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:iut@127.0.0.1:5432/collectivities'
 
 app.config["SECRET_KEY"] = b'5eed9b976f6d5c80fb8bb74b1bcff9f01218a864d0f2dd76143356d3cc36eda8'
 db = SQLAlchemy()
