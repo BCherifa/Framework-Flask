@@ -110,7 +110,7 @@ from appli6.forms import UserForm
 
 Les templates HTML retournés s'appuient sur le gabarit de base `layout.html`. Il affiche un menu défini dans le fragment `nav.html` - le code est donné ci-après. Il charge la page de styles `styles.css` qui se trouve dans le dossier `static/css/`.
 
-[Cliquer ici pour télécharger la page de style](../ressources/styles.css)
+[Cliquer ici pour télécharger la page de style](../ressources/mescss.css)
 
 &nbsp;
 
