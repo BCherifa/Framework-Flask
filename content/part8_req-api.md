@@ -1,5 +1,6 @@
 # Interroger un API REST - 
-
+ La première partie consiste à mettre en place une API Rest. L'énoncé est disponible [`ici`](/resources/20240306_R605_ApiFlask.pdf) 
+ 
 ## Envoyer des requête HTTP avec le module python `requests`
 
 Le *package python* ``requests`` permet d'envoyer des requêtes HTTP à un serveur et recevoir ses réponses. Il permet de transmettre du contenu comme des entêtes **header**, des données de formulaires et même des fichiers. Il est utilisable directement en mode CLI (*Command Line Interface*) et peut être intégré dans des *scripts* d'automatisation à l'aide d'une clause `import`. Pour l'installer dans l'environnement python, utilisez le gestionnaire de packet python ``pip``
@@ -41,7 +42,8 @@ Pour traiter la réponse HTTP du serveur, on utilise les attributs et les métho
 
 > _**Remarque**<p>La méthode ``requests.get()`` permet de lancer une **requête HTTP GET** pour récupérer une ressource . Elle retourne une instance représentant la réponse HTTP. On peut afficher le résultat en appelant l'attribut ``text`` donnant le contenu **HTML** récupéré.
 
- La suite du Tp est disponible [`ici`](/resources/20240306_R605_ApiFlask.pdf) 
+Pour tester l'api avec une connexion à une base de donnée, vous trouverez un exercice d'application [`ici`](/resources/20240306_R605_ApiFlask.pdf) 
+
 &nbsp;
 
 [**_Sommaire_** :arrow_heading_up:  ](../README.md)
