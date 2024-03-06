@@ -41,7 +41,7 @@ Pour traiter la réponse HTTP du serveur, on utilise les attributs et les métho
 
 > _**Remarque**<p>La méthode ``requests.get()`` permet de lancer une **requête HTTP GET** pour récupérer une ressource . Elle retourne une instance représentant la réponse HTTP. On peut afficher le résultat en appelant l'attribut ``text`` donnant le contenu **HTML** récupéré.
 
-
+ La suite du Tp est disponible dans: (../ressources/20240306_R605_ApiFlask.pdf)
 &nbsp;
 
 [**_Sommaire_** :arrow_heading_up:  ](../README.md)
