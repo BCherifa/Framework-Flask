@@ -694,6 +694,10 @@ def sign_up():
 
 &nbsp;
 
+> _**Remarque**<p>Pour interroger une base de données mysql, vous pouvez consulter le lien suivant: https://techarise.com/restful-api-in-python-mysql/ </p>_
+
+&nbsp;
+
 [**_Sommaire_** :arrow_heading_up:  ](../README.md)
 
 _[:rewind: **Interroger une API**](part8_req-api.md) / [**Déploiment** :fast_forward:](part10_deploy.md)_
